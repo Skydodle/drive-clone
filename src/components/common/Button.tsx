@@ -1,5 +1,5 @@
 import React from "react";
-import type { Button } from "../Interface/index";
+import type { Button } from "../../Interface/index";
 
 export default function Button({ btnClass, title, onClick }: Button) {
   return (
