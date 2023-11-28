@@ -1,7 +1,5 @@
 import Head from "next/head";
-import Button from "~/components/common/Button";
-import { useSession, signIn, signOut } from "next-auth/react";
-import HomeComponent from "~/components/Home/Home";
+import HomeComponent from "~/components/Home";
 
 export default function Home() {
   return (
